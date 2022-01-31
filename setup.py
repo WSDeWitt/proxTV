@@ -2,10 +2,12 @@ from setuptools import setup
 
 
 setup(
-    name="prox_tv",
-    version="3.3.0",
+    name="prox_tv_SDIST",
+    version="3.3.1",
     description="Toolbox for fast Total Variation proximity operators",
     long_description="""
+FORK BY WSDEWITT FOR SDIST DEPLOYMENT
+
 proxTV is a toolbox implementing blazing fast implementations of Total Variation
 proximity operators. While the core algorithms are implemented in C to achieve high
 efficiency, Matlab and Python interfaces are provided for ease of use. The library
@@ -35,11 +37,7 @@ norms to apply in the Total Variation term.
         'Operating System :: POSIX :: Linux',
         'Topic :: Scientific/Engineering :: Mathematics',
         'License :: OSI Approved :: BSD License',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7'
+        'Programming Language :: Python :: 3',
     ],
     keywords='total variation image processing machine learning',
     test_suite="nose.collector",
